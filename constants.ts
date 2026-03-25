@@ -1,0 +1,87 @@
+
+import { Product } from './types';
+
+export const MOCK_PRODUCTS: Product[] = [
+  {
+    id: '1',
+    name: 'OVERSIZED WOOL BLEND COAT',
+    price: 189.00,
+    category: 'Women',
+    images: ['https://images.unsplash.com/photo-1539109136881-3be0610931c3?q=80&w=2000&auto=format&fit=crop'],
+    description: 'Long sleeve coat made of a wool blend. Lapel collar and long sleeves. Front pockets with flaps. Front button closure.',
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Black', 'Camel'],
+    isNew: true
+  },
+  {
+    id: '2',
+    name: 'SATIN FINISH DRESS',
+    price: 59.90,
+    category: 'Women',
+    images: ['https://images.unsplash.com/photo-1595777457583-95e059d581b8?q=80&w=2000&auto=format&fit=crop'],
+    description: 'V-neck dress with thin straps. Seam detail under the bust. Flared hem.',
+    sizes: ['S', 'M', 'L'],
+    colors: ['Cream', 'Black'],
+  },
+  {
+    id: '3',
+    name: 'LINEN STRUCTURED BLAZER',
+    price: 129.00,
+    category: 'Men',
+    images: ['https://images.unsplash.com/photo-1593032465175-481ac7f401a0?q=80&w=2000&auto=format&fit=crop'],
+    description: 'Blazer made of linen blend fabric. Notched lapel collar and long sleeves with buttoned cuffs. Welt pocket at the chest and flap pockets at the hip.',
+    sizes: ['46', '48', '50', '52', '54'],
+    colors: ['Beige', 'Navy'],
+    isNew: true
+  },
+  {
+    id: '4',
+    name: 'COTTON CHINO TROUSERS',
+    price: 49.90,
+    category: 'Men',
+    images: ['https://images.unsplash.com/photo-1624371414361-e6e9021230c9?q=80&w=2000&auto=format&fit=crop'],
+    description: 'Slim fit trousers. Front pockets and back buttoned welt pockets. Front zip and button closure.',
+    sizes: ['30', '32', '34', '36'],
+    colors: ['Khaki', 'Grey'],
+  },
+  {
+    id: '5',
+    name: 'MINIMALIST LEATHER TOTE',
+    price: 159.00,
+    category: 'Accessories',
+    images: ['https://images.unsplash.com/photo-1544816153-159752135629?q=80&w=2000&auto=format&fit=crop'],
+    description: 'Leather tote bag. Shoulder straps. Internal pocket. Magnet closure.',
+    sizes: ['One Size'],
+    colors: ['Tan', 'Black'],
+  },
+  {
+    id: '6',
+    name: 'KNIT POLO SHIRT',
+    price: 45.90,
+    category: 'Men',
+    images: ['https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?q=80&w=2000&auto=format&fit=crop'],
+    description: 'Short sleeve polo shirt with a lapel collar. Ribbed trims.',
+    sizes: ['S', 'M', 'L', 'XL'],
+    colors: ['Ecru', 'Olive'],
+  },
+  {
+    id: '7',
+    name: 'WIDE-LEG TAILORED PANTS',
+    price: 89.00,
+    category: 'Women',
+    images: ['https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?q=80&w=2000&auto=format&fit=crop'],
+    description: 'High-waist trousers with front pleats. Side pockets and back welt pockets. Wide-leg design.',
+    sizes: ['XS', 'S', 'M', 'L'],
+    colors: ['White', 'Black'],
+  },
+  {
+    id: '8',
+    name: 'CASHMERE SCARF',
+    price: 79.00,
+    category: 'Accessories',
+    images: ['https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?q=80&w=2000&auto=format&fit=crop'],
+    description: 'Scarf made of 100% cashmere. Frayed edges.',
+    sizes: ['One Size'],
+    colors: ['Grey', 'Charcoal'],
+  }
+];
